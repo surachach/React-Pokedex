@@ -1,0 +1,19 @@
+body{
+  background: #151500;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.app-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
